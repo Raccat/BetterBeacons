@@ -4,9 +4,9 @@ data:extend({
         name = "beacon2",
         stack_size = "10",
         place_result = "beacon2",
-        icon = "__beacons__/icons/bingus.png",
-        icon_size = 256,
-        energy_usage = "10kW",
+        icon = "__beacons__/icons/beacon2.png",
+        icon_size = 64, icon_mipmaps = 4,
+        energy_usage = "540kW",
         energy_source = {
             type = "electric",
             usage_priority = "secondary-input",
