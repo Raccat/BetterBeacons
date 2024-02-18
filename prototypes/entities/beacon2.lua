@@ -17,7 +17,7 @@ data:extend({
     distribution_effectivity = "0.75",
     module_specification = {
             module_slots = 4,
-            module_info_icon_shift = {0, 0.5},
+            module_info_icon_shift = {0, 0},
             module_info_multi_row_initial_height_modifier = -0.3
     },
     radius_visualisation_picture = {
@@ -25,9 +25,11 @@ data:extend({
         size = 10
     },
     allowed_effects = {"speed", "consumption", "pollution"},
+    flags = {"placeable-neutral", "player-creation"},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
-    collision_mask = {"item-layer", "player-layer", "water-tile"},
-    collision_box = {{-1.5, -1.5}, {1.5, 1.5}},
+    collision_box = {{-1.4, -1.4}, {1.4, 1.4}},
     max_health = 200,
+    -- ADD CLOSE AND OPEN SOUNDS FROM BASE GAME
+
     }
 })
