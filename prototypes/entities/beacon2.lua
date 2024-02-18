@@ -4,7 +4,7 @@ data:extend({
     name = "beacon2",
     localised_name = "Beacon 2",
     localised_description = "Transmits module effects to nearby machines.",
-    graphics_set = {"__base__/prototypes/entity/beacon-animations.lua"},
+    graphics_set = require("__base__/prototypes/entity/beacon-animations.lua"),
     icon = "__beacons__/icons/bingus.png",
     icon_size = 256,
     energy_usage = "540kW",
