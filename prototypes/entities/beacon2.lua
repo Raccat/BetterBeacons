@@ -16,7 +16,7 @@ data:extend({
     supply_area_distance = "4",
     distribution_effectivity = "0.75",
     module_specification = {
-            module_slots = 4,
+            module_slots = 2,
             module_info_icon_shift = {0, 0.5},
             module_info_multi_row_initial_height_modifier = -0.3
     },
