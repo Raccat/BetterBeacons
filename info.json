@@ -1,9 +1,9 @@
 {
     "name": "beacons",
     "version": "0.1.0",
-    "title": "Beacons are for losers or soemthing rusjrsddkasdja idk",
-    "author": "BOOBS",
+    "title": "Better Beacons",
+    "author": "Trashpanda115",
     "factorio_version": "1.1",
     "dependencies": ["base >= 1.1"],
-    "description": "This mod does not add in fire armor that leaves behind damaging fire as you walk around."
+    "description": "This mod adds in Effect Transmission 2 and 3 researches with improved beacons"
   }
