@@ -1,19 +1,19 @@
 data:extend({
     {
     type = "beacon",
-    name = "beacon2",
-    localised_name = "Beacon 2",
+    name = "beacon3",
+    localised_name = "Beacon 3",
     localised_description = "Transmits the effects of modules to nearby friendly entities.",
     graphics_set = require("__base__/prototypes/entity/beacon-animations.lua"),
-    icon = "__beacons__/icons/beacon2.png",
+    icon = "__beacons__/icons/beacon3.png",
     icon_size = 64, icon_mipmaps = 4,
     energy_usage = "540kW",
     energy_source = {
         type = "electric",
         usage_priority = "secondary-input",
     },
-    minable = {mining_time = 1, result = "beacon2"},
-    supply_area_distance = "4",
+    minable = {mining_time = 1, result = "beacon3"},
+    supply_area_distance = "5",
     distribution_effectivity = "0.75",
     module_specification = {
             module_slots = 4,
