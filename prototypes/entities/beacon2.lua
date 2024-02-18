@@ -29,6 +29,8 @@ data:extend({
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     collision_box = {{-1.4, -1.4}, {1.4, 1.4}},
     max_health = 200,
+    fast_replaceable_group = "beacons",
+    next_upgrade = "beacon3",
     -- ADD CLOSE AND OPEN SOUNDS FROM BASE GAME
 
     }
