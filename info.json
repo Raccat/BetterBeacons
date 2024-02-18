@@ -1,9 +1,9 @@
 {
     "name": "beacons",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "title": "Better Beacons",
-    "author": "Trashpanda115",
+    "author": "Trashpanda115 + kaitlynkitty",
     "factorio_version": "1.1",
     "dependencies": ["base >= 1.1"],
-    "description": "This mod adds in Effect Transmission 2 and 3 researches with improved beacons"
+    "description": "This mod adds in Effect Transmission 2 and 3 researches with improved beacons."
   }
